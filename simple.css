@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(69, 52, 85);
+    
+}
+header{
+    position: static;
+    border: 3px solid #888;
+    align-content: center;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+article{
+    color:#ffff
+}
+div.box{
+    box-sizing:border-box;
+    width: 35%;
+    float: left;
+    margin-left: 50px;
+    word-wrap: break-word;
+}
+
+h1{
+    color: aqua;   
+    margin-left: 10px;
+    margin-bottom: -20px;
+    font-family: cursive;
+    font-size: 50px;
+}
+h3#decoration{
+    color: red;
+    display: inline-block;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+p.newpaper{
+    columns: 100px 3;
+    column-rule: #ff00ff;
+
+}
+.social-media{
+    font-style: oblique;
+    color: white;
+    position: relative;
+}
+footer{
+    margin-top: 400px;
+    position: fixed;
+}
+.animation{
+    width: 500px;
+    height: 100px;
+    background: red;
+    position: sticky;
+    animation: mymove 60s infinite;
+
+}
+@keyframes mymove{
+    0% {top: 0px; left: 0px; background:red;}
+    25%{top:500px; left: 500px; background: blue;}
+    50%{top: 0px; left: 100px; background: yellow;}
+    100%{top: 0px; left: 0px; background: red;}
+}
