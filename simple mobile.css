@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(69, 52, 85);
+    /*background-color: rgb(69, 52, 85);*/
+    background-color: violet;
     
 }
+@media screen and (min-width: 640px) and (max-width: 812px){}
 header{
     position: static;
     border: 3px solid #888;
@@ -21,34 +23,38 @@ div.box{
 }
 
 h1{
-    color: aqua;   
-    margin-left: 10px;
+    color: aqua;  
+    margin-top: -5px; 
+    margin-left: 20px;
     margin-bottom: -20px;
     font-family: cursive;
     font-size: 50px;
+    font-size: 20pt;
 }
 h3#decoration{
     color: red;
     display: inline-block;
     align-items: center;
     padding: 0px 0px 0px 10px;
+    font-size: 11pt;
 }
 p.newpaper{
     columns: 100px 3;
     column-rule: #ff00ff;
-
-}
-img.show-mobile{
-    display: none;
+    font-size: 11pt;
 }
 .social-media{
     font-style: oblique;
     color: white;
     position: relative;
 }
+
+
 footer{
     margin-top: 400px;
     position: fixed;
+    background-color: red;
+    display: none;
 }
 .animation{
     width: 500px;
